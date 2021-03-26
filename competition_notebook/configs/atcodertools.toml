@@ -1,0 +1,17 @@
+[codestyle]
+indent_type='space' # 'tab' or 'space'
+indent_width=4
+template_file='../configs/ipynb_template.md'
+workspace_dir='.'
+lang='py' # Check README.md for the supported languages.
+code_generator_file="../configs/ipynb_code_generator.py"
+[postprocess]
+exec_on_each_problem_dir='bash ../../../configs/post_problem.sh'
+exec_on_contest_dir='bash ../../configs/post_contest.sh'
+
+[etc]
+download_without_login=false
+parallel_download=false
+save_no_session_cache=false
+in_example_format="in_{}.txt"
+out_example_format="out_{}.txt"
