@@ -13,12 +13,9 @@ entries:
       title: tools
       url: tools.html
     - output: web,pdf
-      title: Title
-      url: notebook.html
-    - output: web,pdf
-      title: Template Builder
-      url: generate_template.html
+      title: A
+      url: abc203.html
     output: web
-    title: atcoder_nb
+    title: lib
   output: web
   title: Sidebar

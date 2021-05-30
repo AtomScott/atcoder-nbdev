@@ -1,8 +1,7 @@
 {
-  "atcoder_nb": {
+  "lib": {
     "Overview": "/",
     "tools": "tools.html",
-    "Title": "notebook.html",
-    "Template Builder": "generate_template.html"
+    "A": "abc203.html"
   }
 }
