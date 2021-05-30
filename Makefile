@@ -35,3 +35,8 @@ dist: clean
 
 clean:
 	rm -rf dist
+
+id=abc000
+export id
+prep:
+	atcoder-tools gen ${id} --workspace='/data/atcoder' --lang='python' --config='/data/configs/atcodertools.toml'  
